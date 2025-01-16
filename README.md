@@ -19,19 +19,19 @@ A command-line utility written in Go that provides detailed disk usage informati
 ```bash
 git clone https://github.com/yourusername/DiskInfo.git
 cd DiskInfo
-go build
+go build 
 ```
 
 ## Usage
 
 Run without arguments (defaults to /home directory):
 ```bash
-./DiskInfo
+./DiskInfo 
 ```
 
 Specify a custom path:
 ```bash
-./DiskInfo /path/to/directory
+./DiskInfo /path/to/directory 
 ```
 
 ## Example Output
@@ -54,9 +54,7 @@ Size: 25.75 GB
 - Go 1.11 or higher
 - Linux/Unix-based operating system
 
-## License
 
-MIT License
 
 # <a name="russian"></a>Русский
 
@@ -97,7 +95,9 @@ go build
 Всего: 500 ГБ
 Использовано: 250 ГБ (50.00%)
 Свободно: 250 ГБ
+## License
 
+MIT License
 Директория: /home/user/Documents
 Размер: 15.50 ГБ
 
@@ -110,6 +110,3 @@ go build
 - Go 1.11 или выше
 - Операционная система на базе Linux/Unix
 
-## Лицензия
-
-MIT License
